@@ -1,4 +1,4 @@
-# SRM_Code — Sim2Real Sonar Image Augmentation: A Comparative Study
+# Sim2Real Sonar Image Augmentation: A Comparative Study
 
 A comparative evaluation of **diffusion-based** and **GAN-based** synthetic-to-real (Sim2Real) domain adaptation methods for side-scan sonar imagery, built to close the texture, noise, and acoustic-shadow gap between simulated sonar data (S3SIM) and real sonar datasets (SCTD, KLSG).
 
