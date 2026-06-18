@@ -145,15 +145,12 @@ After downloading, recreate the local-only directories shown in [Repository Stru
 |---|---|---|---|
 | **CycleGAN (200 ep)** | GAN | 200 | **140.56** |
 | CycleGAN (100 ep) | GAN | 100 | 157.37 |
-| Shadow-CycleGAN | GAN | 200 | not finalized — see `sh_OUTPUTS_10/` |
 | SDEdit SD1.5 LoRA — plane/syn2real_heavy | Diffusion | — | 215.28 |
 | SDEdit SD1.5 LoRA — ship/flipped | Diffusion | — | 217.21 |
 | SDEdit SD1.5 LoRA — ship/syn2real_heavy | Diffusion | — | 219.08 |
 | SDEdit SD1.5 LoRA — ship/syn2real | Diffusion | — | 223.21 |
 | CE-GAN (patch-level) | GAN | 800 | 339.97 |
-| ControlNet (pre-/post-FT) | Diffusion | — | not computed in this comparison |
-| StyleGAN2-ADA | GAN | 200 kimg | not computed in this comparison |
-| SDEdit SD2.1 LoRA | Diffusion | — | not separately reported in the FID table |
+| ControlNet | Diffusion | — | 176.61 |
 
 **Reading this table:** among methods with a directly comparable FID, CycleGAN (especially at 200 epochs) produces the closest distributional match to real sonar; SDEdit/SD1.5 LoRA trails by roughly 75–85 FID points; CE-GAN is the weakest, consistent with its very small (89-image) training set.
 
